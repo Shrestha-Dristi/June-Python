@@ -19,4 +19,10 @@ data.sort(key=get_last_element)
 print(data)
 
 data.sort(key=get_last_element,reverse=True)
-print(data)
+print(data) #[(3, 1, 14), (1, 2, 12), (1, 1), (5, 2, 0)]
+
+#reverse() ultyaune kaam matra order lai not descending
+
+
+
+

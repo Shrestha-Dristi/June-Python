@@ -99,6 +99,8 @@ students = [
 ]
 
 
+student = students.pop(1)
+print(student) # {"name": "Jane", "age": 32, "address": "KTM"}
 print(students)
 """
 [
@@ -108,9 +110,7 @@ print(students)
 """
 
 
-print(student) # {"name": "Jane", "age": 32, "address": "KTM"}
 
-student = students.pop(1))
 
-print(students)
+
 
