@@ -1,0 +1,2 @@
+Using context manager
+A new line

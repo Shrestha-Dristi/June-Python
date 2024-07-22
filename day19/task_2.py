@@ -10,7 +10,7 @@ class Person:
 
     def __init__(self, name, age):
         self.name = name
-        self.age = age
+        self.age = age  
 
     def get_details(self):  # instance method
         print(f"Name: {self.name}, Age: {self.age}")
@@ -37,11 +37,19 @@ person1.set_name("Alex")
 print(person1.name)  # Alex
 
 class Employee(Person):
-    salary = 10000000
-    designation = "MD"
+    def __init__(self, name, age, salary, designation = "Python Dev"):
+        self.salary = salary
+        self.designation = designation  
+        super().__init__(name, age)
 
-    def get_details(self):  # instance method
-        print(f"Name: {self.name}, Age: {self.age}, salary: {self.salary}, Designation: {self.designation}")
+
+    def get_details(self):
+        x  = super().get_details()
+        return f"{x} Salary is {self.salary} and designation is {self.designation}"
+
+
+emp = Employee("Almond", 26, 45000)
+print(emp.get_details()) 
 
     
      

@@ -1,0 +1,6 @@
+1. An individual python file in any project is a module
+2. Collection of modules is a python package
+3. Collection of packages is a python library
+
+
+ 
