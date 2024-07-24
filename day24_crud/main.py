@@ -14,8 +14,9 @@ def run_crud():
         run_crud() if continuee else exit_from_crud()
     
     elif choice.lower() == "r":
-        read_student()
-
+        c = read_student()
+        run_crud() if c else exit_from_crud()
+ 
     elif choice.lower() == "u":
         update_student()
 
