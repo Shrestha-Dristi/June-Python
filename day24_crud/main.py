@@ -18,11 +18,12 @@ def run_crud():
         run_crud() if c else exit_from_crud()
  
     elif choice.lower() == "u":
-        update_student()
+        c = update_student()
+        run_crud() if c else exit_from_crud()
 
     elif choice.lower() == "d":
-        delete_student()
-
+        c = delete_student()
+        run_crud() if c else exit_from_crud()
     else:
         exit_from_crud()
         

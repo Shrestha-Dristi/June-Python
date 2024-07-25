@@ -1,11 +1,5 @@
 [
   {
-    "id": "1",
-    "name": "Aman",
-    "age": "18",
-    "address": "Anamnagar"
-  },
-  {
     "id": "3",
     "name": "Theta",
     "age": "33",
@@ -20,7 +14,7 @@
   {
     "id": "6",
     "name": "Sixey",
-    "age": "66",
+    "age": "57",
     "address": "Sixtipur"
   }
 ]

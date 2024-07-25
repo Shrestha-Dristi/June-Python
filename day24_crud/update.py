@@ -5,7 +5,7 @@ filename = "students.json"
 def update_student(): 
     id = input("Enter student id: ")
     key = input("Enter the info you want to update: ")
-    value = input(f"Enter the new {key} ")
+    value = input(f"Enter the new {key}: ")
 
     if key not in ["name", "age", "address"]:
         print("Info not available")
