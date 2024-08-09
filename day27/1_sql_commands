@@ -1,0 +1,8 @@
+1. create database <db_name>;
+2. \l => lists all the databases, users and db roles
+3. \c <db_name> => enters into the particular database shell    
+    IN WINDOWS :    psql -U postgres    (to enter into postgres terminal as postgres user)
+
+NOTE: grant all priviledges on database studentdb to postgres (to provide access manually to other new users)
+
+
